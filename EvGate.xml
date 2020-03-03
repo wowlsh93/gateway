@@ -1,0 +1,52 @@
+<config>
+	<version>
+		<value>1.0.0</value>
+	</version>
+	<cipher>
+		<key>RoMDs+OFs7Y4eXHPXNd9EQ==</key>
+	</cipher>
+	<terminal>
+		<name>telnet control port</name>
+		<port>14332</port>
+		<id>admin</id>
+		<passwd>elvis@@@</passwd>
+	</terminal>
+	<serial>
+		<port>COM6</port>
+	</serial>
+	<internet>
+		<pingaddr>192.168.1.184</pingaddr>
+	</internet>
+	<devicemanager>
+		<ping-enable>0</ping-enable>
+		<ping-interval>120</ping-interval>
+		<ping-count>3</ping-count>
+	</devicemanager>
+	<postdb>
+		<servername>localhost</servername>
+		<dbname>postgres</dbname>
+		<user>postgres</user>
+		<pass>pi</pass>
+	</postdb>	5
+	<timeserver>
+		<username>sas</username>
+		<servername>192.168.1.59</servername>
+	</timeserver>
+	<sas>
+		<servername>192.168.1.59</servername>
+		<serverport>30011</serverport>
+	</sas>
+	<sas_backup>
+		<servername>192.168.1.59</servername>
+		<serverport>30011</serverport>
+	</sas_backup>
+	<backupdb>
+		<servername>192.168.1.59</servername>
+		<dbname>postgres</dbname>
+		<user>postgres</user>
+		<pass>pi</pass>
+	</backupdb>
+	<elecstream>
+		<min-interval>2</min-interval>
+	</elecstream>
+</config>

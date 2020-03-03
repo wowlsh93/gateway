@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gw>
+
+	<controller>
+		<id>workstation</id>
+		<name>lgdpaju0001</name>
+	</controller>
+	
+	<things>
+			<thing>2</thing>
+			<thing>3</thing>
+	</things>
+
+
+</gw>
